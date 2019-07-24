@@ -72,6 +72,6 @@ Les 5 types de load balancers sont :
 
 ### Vrai ou faux : Les fonctions Cloud constituent une solution idéale pour exécuter de longs traitements.
 
-**Faux.** Par défaut, l'exécution d'une fonction Cloud expire après 1 minutes. Le délai d'expiration (timeout) peut être allongé à maximum 9 minutes. En général, une fonction Cloud permet d'effectuer de courts traitements en réponse à un événements produit sur GCP, par exemple :
+**Faux.** Par défaut, l'exécution d'une fonction Cloud expire après 1 minute. Le délai d'expiration (timeout) peut être allongé à maximum 9 minutes. En général, une fonction Cloud permet d'effectuer de courts traitements en réponse à un événement produit sur GCP, par exemple :
 
 > Convertir des fichiers au format .pdf dès qu'ils ont uploadé dans un bucket Cloud Storage.
