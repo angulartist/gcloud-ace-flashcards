@@ -124,3 +124,5 @@ Global.
 ### Un développeur a besoin d'un rôle pour disposer de permissions bien précises. Je ne veux pas me prendre la tête et je lui attribue le rôle Administrateur. Quel principe ai-je enfreint ?
 
 J'ai enfreint le **principe de moindre priviliège**. Une tâche ne doit bénéficier que de privilèges strictement nécessaires à l'exécution du code menant à bien ses fonctionnalités. En d'autres termes, une tâche ne devrait avoir la possibilité de mener à bien que les actions dont l'utilité fonctionnelle est avérée - [WikiPedia](https://fr.wikipedia.org/wiki/Principe_de_moindre_privil%C3%A8ge).
+
+> Note: C'est également une best practice Google.
