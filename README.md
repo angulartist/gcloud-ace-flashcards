@@ -55,3 +55,23 @@ Les 2 types d'environnements d'exécution sont :
 
 - App Engine Standard (Python, Go, Node.JS, Java, PHP, Ruby) ;
 - App Engine Flex (Conteneurs Docker).
+
+### Qu'est-ce que BigQuery ?
+
+BigQuery est un service **OLAP** (OnLine Analytical Processing) entièrement managé par Google, qui scale à l'échelle du pétaoctet, qui utilise des tables relationnelles pour organiser les données et qui permet d'utiliser le SQL pour les requêtes.
+
+### Quels sont les 5 types de load balancers ?
+
+Les 5 types de load balancers sont :
+- HTTP(S) ;
+- SSL Proxy ;
+- TCP Proxy ;
+- Internal TCP/UDP ;
+- Network TCP/UDP.
+
+
+### Vrai ou faux : Les fonctions Cloud constituent une solution idéale pour exécuter de longs traitements.
+
+**Faux.** Par défaut, l'exécution d'une fonction Cloud expire après 1 minutes. Le délai d'expiration (timeout) peut être allongé à maximum 9 minutes. En général, une fonction Cloud permet d'effectuer de courts traitements en réponse à un événements produit sur GCP, par exemple :
+
+> Convertir des fichiers au format .pdf dès qu'ils ont uploadé dans un bucket Cloud Storage.
