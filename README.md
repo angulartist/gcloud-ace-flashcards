@@ -5,7 +5,7 @@
 
 C'est un système de stockage qui traite les données en tant qu'objets, tels que, par exemple, des fichiers. Google Cloud dispose d'un service de stockage d'objets : Cloud Storage.
 
-### Quelle commande déclenche un déploiement ?
+### Quelle commande déclenche un déploiement via Cloud Deployement Manager?
 
 ```sh
 gcloud deployment-manager deployments create
