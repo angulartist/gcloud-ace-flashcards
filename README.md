@@ -75,3 +75,52 @@ Les 5 types de load balancers sont :
 **Faux.** Par défaut, l'exécution d'une fonction Cloud expire après 1 minute. Le délai d'expiration (timeout) peut être allongé à maximum 9 minutes. En général, une fonction Cloud permet d'effectuer de courts traitements en réponse à un événement produit sur GCP, par exemple :
 
 > Convertir des fichiers au format .pdf dès qu'ils ont uploadé dans un bucket Cloud Storage.
+
+
+### Quelle commande permet de créer un bucket Cloud Storage ?
+
+```sh
+gsutil mb
+```
+
+> Mémo: mb signifie make bucket.
+
+### Qu'est-ce que Cloud Firestore ?
+
+Cloud Firestore est une base de données **NoSQL** (collections contenant des documents) entièrement managée et serverless. Elle est utilisée pour stocker des données et les synchroniser entre les différents clients d'une Web App ou d'une application mobile.
+
+### Qu'est-ce qu'un rôle ?
+
+Un rôle, dans le contexte de GCP, est une collection de privilièges (droits).
+
+### Qu'est-ce qu'un cluster ?
+
+Un cluster est un groupe de serveurs (virtuels ou physiques) fonctionnant conjointement en tant que système distribué.
+
+###  Quelles sont les 4 classes de stockage de Cloud Storage ?
+
+Les 4 classes de stockage sont :
+- Régionale (1 région, plusieurs zones) ;
+- Multirégionale (plusieurs régions) ;
+- Nearline (accès peu fréquents < 1/mois) ;
+- Coldline (accès très peu fréquents < 1/an).
+
+### Qu'est-ce que Stackdriver ?
+
+Stackdriver est un ensemble de services pour la surveillance, la journalisation, le suivi et le débogage d'infrastructures et d'applications, pour GCP et pour les autres infrastructures.
+
+### Quelle est la taille maximale (en Go) d'un cache Memorystore ?
+
+La taille max. d'un cache Cloud Memorystore est de **300 Go**.
+
+### Vrai ou faux : Un projet ne peut contenir qu'une seule application App Engine.
+
+C'est **vrai.**
+
+### Les VPC disposent d'un scope ___________ ?
+
+Global.
+
+### Un développeur a besoin d'un rôle pour disposer de permissions bien précises. Je ne veux pas me prendre la tête et je lui attribue le rôle Administrateur. Quel principe ai-je enfreint ?
+
+J'ai enfreint le **principe de moindre priviliège**. Une tâche ne doit bénéficier que de privilèges strictement nécessaires à l'exécution du code menant à bien ses fonctionnalités. En d'autres termes, une tâche ne devrait avoir la possibilité de mener à bien que les actions dont l'utilité fonctionnelle est avérée - [WikiPedia](https://fr.wikipedia.org/wiki/Principe_de_moindre_privil%C3%A8ge).
